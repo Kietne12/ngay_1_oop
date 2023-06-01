@@ -16,25 +16,8 @@ public class Main { // 1 lớp
                 hoTenVietHoa.append(" ");// thêm khoảng trắng vào cuối chuỗi
             }
         }
-////
-////        int soKyTuKhongKhoangTrang = 0;
-////        for (int i = 0; i < hoTen.length(); i++) {
-////            if (hoTen.charAt(i) != ' ') { //charAt là lấy ký tự ở 1 vị trí xác định trong chuỗi
-////                soKyTuKhongKhoangTrang++;
-////            }
-////        }
-//
         System.out.println("Tên đầy đủ của bạn là: " + hoTenVietHoa);
-//        System.out.println("Số ký tự trong tên của bạn là: " +soKyTuKhongKhoangTrang);
-//
-//        for (int i = 2; i <= 100; i++)
-//            if (i % 2 == 0) {
-//                System.out.print("\ni = " + i);
-//            }
-//        Scanner x = new Scanner(System.in); // x là đối tượng của lớp Scanner
-//        System.out.print("Nhập vào số nguyên (x): ");
-//        int number = x.nextInt();
-//        System.out.print("f(x) = " + number*number);
+
         String[] sentences = {
                 "Đầu lòng hai ả tố nga,",
                 "Thúy Kiều là chị, em là Thúy Vân.",
